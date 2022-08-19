@@ -1,0 +1,12 @@
+.filtre, .latte, .kahve-renkleri{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+#abot div{
+    border: 2px solid #A64B2A;
+    padding: 5px;
+    margin: 10px 0;
+}
+
