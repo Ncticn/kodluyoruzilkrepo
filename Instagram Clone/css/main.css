@@ -1,0 +1,251 @@
+#container{
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0.5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+#sol-article{
+    border: 1px solid #d6d1d1;
+    width: 60%;
+    height: 100vh;
+
+}
+
+#sag-bar{
+    border: 1px solid #d6d1d1;
+    height: 53vh;
+    width: 40%;
+}
+
+
+
+.profil{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+.profil h1{
+    font-size:1.5rem;
+}
+.img{
+    padding-right: 1rem;
+}
+
+.img img{   
+    border: 2px solid rgb(238, 39, 82);
+    height: 70px;
+    border-radius: 50px;
+}
+
+
+.oneri{
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oneri p{
+    color: #8a8787;
+}
+
+.oneri a{
+    color: black;
+}
+
+
+
+.account{
+    padding: 0 1rem;
+}
+
+.ilk-hesap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 0.2rem 0
+    
+}
+
+.ilk-hesap img{
+    border: 2px solid rgb(238, 39, 82);
+    height: 50px;
+    border-radius: 50px;
+}
+
+.ilk-hesap a{
+    padding: 0 0.8rem;
+    color: #007bff;
+
+}
+
+.ilk-hesap a:last-child{
+    color: #0095f6;
+}
+
+
+
+
+
+
+
+
+
+
+.etiketler{
+  padding: 1rem 1rem;
+}
+
+.etiketler a{
+    color: #0765c9;
+}
+
+.etiketler a:hover{
+    text-decoration: underline;
+    color: #0765c9;
+}
+
+.hakkinda{
+    padding: 0 1rem;
+    color:#8a8787;
+}
+
+
+
+
+
+
+
+
+
+.story{
+    border: 1px solid #d6d1d1;
+    height: 8vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap:nowrap;
+}
+
+.story img{
+    border: 2px solid rgb(238, 39, 82);
+    height: 60px;
+    border-radius: 50px;
+}
+
+.story a{
+    padding: 0 5px;
+}
+
+
+.post{
+    
+    margin-top: 1px;
+
+}
+
+.baslik{
+    border: 1px solid #d6d1d1;
+    background-color: rgba(0,0,0,.03);
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 2rem 1rem; 
+}
+
+.baslik img{
+    border: 2px solid rgb(238, 39, 82);
+    height: 45px;
+    border-radius: 50px;
+}
+
+.baslik a{
+    padding: 0 0.5rem;
+    font-weight: bold;
+    color: #444;
+}
+
+
+.resim img{
+width: 100%;
+}
+
+.icon{
+    border-bottom: 1px solid #d6d1d1;
+    margin-top: 1px;
+    height: 4vh;
+    display: flex;
+    flex-direction:row;
+    gap: 15px;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.icon i{
+    color: black;
+    font-size: 1.5rem;
+}
+
+#son{
+    padding-left: 380px;
+}
+
+
+
+.yorum{
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.yorum img{
+    height: 25px;
+    border-radius: 50px;
+}
+
+
+.yorum  a{
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+}
+
+.yorumlar{
+    padding: 0 0.5rem;
+}
+
+.yorumlar  div{
+  
+    display: block;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.yorumlar div a{  color: black;}
+
+.time{
+    color: #8a8787;
+}
+
+.footer{
+    padding: .75rem ;
+    background-color: rgba(0,0,0,.03);
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 1rem;
+}
+
+.footer intput[type=text]{
+    border: solid white 1px;
+}
+
+.footer a{
+    color: #0765c9;
+    font-family: sans-serif;
+}
