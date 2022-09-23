@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+    border: 2px solid #f3f3f3;
+
+}
+
+/* HEADER - BASLANGİC */
+
+    header{
+        width: 1500px;
+        height: 55px;
+        margin: 0 auto;
+    }
+    nav{
+    display: flex;
+    align-items: center;
+    gap: 1em
+    }
+
+
+    /* LOGO - BASLANGİC */
+    .logo a{
+        display: block;
+        font-size: 3em;
+        color: #0e76a8;
+    }
+    /* LOGO - BITIS */
+
+
+    /* SEARCH - BASLANGIC */
+    .search{
+        height: 30p;
+        background-color: #f2f2f2;
+    }
+
+    .search i{
+        padding:0 1em;
+    }
+
+    .search input[type="search"]{
+        height: 40px;
+        width: 200px;
+        font-size: 1em;
+        background-color: #f2f2f2;
+        border: none;
+    }
+    /* SEARCH - BITIS */
+
+
+    /* ICONS - BASLANGİC */
+    .icons{
+        margin-left:auto ;
+        padding: 0.25em 1em;
+    }
+
+    .icons ul{
+        display: flex;
+    }
+
+    .icons li{
+        text-align: center;
+        padding: 0 1em;
+    }
+
+    .icons i{
+        
+        font-size: 1.3em;
+        padding-bottom: 0.35em;
+    }
+    .icons a{
+        display: block;
+        color: #777;   
+    }
+
+    .icons a:hover{
+        color: #222;
+    }
+
+    .icons img{
+    -bottom: 0px;
+    }
+
+    /* ICONS - BITIS */
+
+/* HEADER - BITIS */
+
+/* MAIN - BASLANGIC */
+    
+main{
+    background-color: #f3f3f3;
+    height: 100vh;        
+}
+
+section{
+    width: 1500px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.card{
+    width: 20%;
+    height: 380px;
+    border: 2px solid #f3f3f3;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.about{
+    border: 2px solid #f3f3f3;
+    height: 250px;
+}
+
+.bg{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+    background-position:center;
+    background-size: cover;
+    height: 60px;
+}
+
+.profil{
+    text-align: center;
+    padding: 1em;
+    
+}
+.profil img{
+    border-radius: 50px;
+    border: 2px solid #f3f3f3;
+}
+
+
+.bilgilendirme{
+    border: 2px solid #f3f3f3;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.ogelerim{
+    padding: 0.5em 1em;
+    border-top: 2px solid #f3f3f3;
+}
+
+.ogelerim i{
+    padding: 0 1em;
+}
+
+/* MAIN - BITIS */
