@@ -1,0 +1,31 @@
+1)   [22,27,16,2,18,6] disini insertion sorta göre düzenleyelim.
+
+	AŞAMALAR;
+	
+	[2,  27,16,22,18,6] > 1. eleman için en küçük sayıyı tarıyoruz.
+	[2,6,  16,22,18,27] > 2. eleman için en küçük sayıyı tarıyoruz.
+	[2,6,16,  22,18,27] > 3. eleman için en küçük sayıyı tarıyoruz.
+	[2,6,16,18,  22,27] > 4. eleman için en küçük sayıyı tarıyoruz.
+	[2,6,16,18,22,  27] > 5. eleman için en küçük sayıyı tarıyoruz.
+	 [2,6,16,18,22,27]  > 6. eleman zaten belli olmuş oldu.
+
+
+2) Big-O natationı O(n^2) şeklindedir. n tane eleman için her aşamada, 
+aşama sayısı x olmak üzere [n-(x-1)] tane elemana bakılır bu nedenle 
+toplamda 1'den n'e kadar olan sayıların toplamı kadar işlem yapılmış olur.
+1'den n2e kadar sayıların toplamı (n*(n+1))/2 şeklinde hesaplandığından
+dominant factor özelliğinden dolayı big-o natation O(n^2) olur.
+
+3) Sıralama işlemini yaptıktan sonra 18 elemanın ortada olduğunu bu nedenle average 
+kapsamına girdiğini görürüz.
+
+4)[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+	AŞAMALAR;
+	
+	Aşama 1. [2|3,5,8,7,9,4,15,6]
+	Aşama 2. [2,3|5,8,7,9,4,15,6]
+	Aşama 3. [2,3,4|8,7,9,5,15,6]
+	Aşama 4. [2,3,4,5|7,9,8,15,6]
+	Aşama 5. [2,3,4,5,6|9,8,15,7]
+	Aşama 6. [2,3,4,5,6,7|8,15,7] 
